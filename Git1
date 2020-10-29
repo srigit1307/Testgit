@@ -1,0 +1,69 @@
+----
+from github to local  - git clone htpps:
+
+from local to GIT:
+
+create a file.
+add it to git
+commit it.
+PUsh it to GITHUB
+
+
+---
+
+git config --global user.name "srigit1307
+git config --global user.email srigit1307@gmail.com
+
+git clone  https:\\...
+
+cd python
+
+create a new test file.
+-- to upload this file, we need to add it to GIT
+git add test1
+
+to upload a file we need to first add it to the GIT
+
+git add test2
+
+to know the status
+
+git status
+
+to know the status
+ git status
+
+ will show wchich are new files.
+
+
+Before transferring , we need to COMMIT first.
+
+git commit -m "first git pgm" Python1.txt
+
+Before transferring the file , we need to COMMIT to local first.
+
+git commit -m " second commit" python2.txt
+
+Once the file is commited we can push it to GIT Central Repository.
+to publish your local commits
+
+ git push -u origin master
+
+ git push origin head:master
+
+ git push orign head:master
+
+ now you can see the git  central repositry the file is refreshed.
+
+
+ now come to local and modify the file content.
+
+ to agagain first transfer the file to GIT,
+
+ Firstly we need to COMMIT the file by
+
+ git commit -m "second commit" Python1.txt
+
+then to publish
+
+git push origin head:master
